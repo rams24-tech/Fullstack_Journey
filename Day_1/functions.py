@@ -11,3 +11,10 @@ def table(x):
 table(3)        
 table(5)
 table(7)
+
+def add(A,B):
+    return (A+B)
+
+sum1=add(10,5)
+print(sum1)
+print(add(add(1,2), add(3,4)))
