@@ -4,3 +4,10 @@ def intro():
     print("I will be graduating by may 2026 withg a cgpa of 3.65")
 intro()    
 intro()
+
+def table(x):
+    for i in range(1,11):
+        print(x*i)
+table(3)        
+table(5)
+table(7)
