@@ -1,16 +1,24 @@
 tasks=[]
-def add_task(task):
+
+def add_task():
+    task=input("Enter the task: ")
     tasks.append(task)
 
 def view_tasks():
-    n=1
-    for i in tasks:
-        print(str(n)+". "+i)
-        n=n+1
+    for i,work in enumerate(tasks, start=1):
+        print(str(i)+". "+work)
 
-    
-add_task("Buy Milk")
-add_task("Finish Assignment")
-add_task("Call Mom")
-
-view_tasks()
+opt=0
+while opt!=3:
+    print("1. Add task")
+    print("2. View tasks")
+    print("3. Quit")
+    opt= int(input("Choose an option: "))  
+    if opt== 3:
+        print("Good bye")
+    elif opt == 1:
+        add_task()
+    elif opt == 2:
+        view_tasks()  
+    else :
+        print("Invalid Choice") 
