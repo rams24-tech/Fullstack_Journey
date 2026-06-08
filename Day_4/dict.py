@@ -1,6 +1,7 @@
-Details={"name":"Kasi Ram" , "Age":24, "university":"UTA" ,"goal":"Make parents happy and comfortable by giving all needs"}
-print(Details["name"])
-print(Details["Age"])
-Details["name"]="Kasi Rama Rao"
-for i in Details:
-    print(Details[i])
+details={"name":"Kasi Ram" , "age":24, "university":"UTA" ,"goal":"Make parents happy and comfortable by giving all needs"}
+print(details["name"])
+print(details["age"])
+details["name"]="Kasi Rama Rao"
+details["motive"]="Existentialism"
+for i in details:
+    print(details[i])
