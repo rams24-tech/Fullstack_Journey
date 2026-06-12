@@ -1,9 +1,7 @@
-file=open("note.txt", "a")      
-file.write(input("Enter a note:")+"\n")
-file.close()
-print("Note Saved!")
-file=open("note.txt", "r")
-text=file.read()
-file.close()
-print("All notes:")
-print(text)
+with open("note.txt", "a") as file:
+    file.write(input("Enter a note:")+"\n")
+    print("Note Saved!")
+with open("note.txt", "r") as file:
+    text=file.read()
+    print("All notes:")
+    print(text)
