@@ -11,13 +11,19 @@ class ExpenseTracker():
         self.filename=filename  
 
     def add_expense(self):
+        description = input("Enter description: ")
+        amount = input("Enter amount: ")
+        try:
+            float(amount)
+        except ValueError:
+            print("Invalid amount. Please enter a number.")
+            return
+        expense = Expense(description, amount)
         with open(self.filename, "a") as file:
-            description = input("Enter description: ")
-            amount = input("Enter amount: ")
-            expense = Expense(description, amount)
             file.write(str(expense) + "\n")
-        print("Expense added!")    
-    
+        print("Expense added!")
+     
+
     def view_all(self):
         with open(self.filename, "r") as file:
             print("All expenses:")
