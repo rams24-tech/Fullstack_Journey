@@ -1,2 +1,152 @@
-hii
-hey,How are you....?
+Ram Sripalasetty
+He/Him
+
+Full Stack Developer | Python, FastAPI, React.js, PostgreSQL | Building Scalable Web Applications
+
+Arlington, Texas, United States
+
+·
+
+Contact info
+
+
+NxtWave
+
+
+The University of Texas at Arlington
+
+386 connections
+
+
+Open to
+Add section
+
+Enhance profile
+
+Open to work · Everyone on LinkedIn
+
+United States | On-site · Hybrid · Remote
+
+Show details
+
+
+
+
+
+
+About
+Full Stack Developer with hands-on experience building web applications using Python, FastAPI, React.js, and PostgreSQL.
+I have developed full-stack applications involving RESTful API design, relational database modeling, and responsive frontend interfaces. During my traineeship at NxtWave, I built and deployed an end-to-end e-commerce platform, gaining experience in integrating frontend, backend, and database systems.
+I enjoy working on real-world applications, solving problems through clean and maintainable code, and continuously improving my development skills.
+Tech Stack: Python, FastAPI, React.js, PostgreSQL, JavaScript, HTML, CSS
+Currently seeking entry-level Full Stack Developer opportunities.
+Experience
+
+
+NxtWave logo
+Full stack developer Trainee
+
+NxtWave · Full-time
+
+Feb 2023 - Jul 2024 · 1 yr 6 mos
+
+Hyderabad, Telangana, India · Hybrid
+
+Built full-stack web applications using HTML, CSS, JavaScript, Python, and SQL
+Developed REST APIs and integrated frontend with backend systems
+Worked on deployment and debugging of applications
+
+
+Education
+
+The University of Texas at Arlington logo
+The University of Texas at Arlington
+
+Master of Science - MS, Computer Science
+
+Aug 2024 – May 2026
+
+KL University logo
+KL University
+
+Bachelor of Technology - BTech, Computer Science
+
+Jun 2019 – Apr 2023
+
+Grade: A
+
+Vidya Junior College, Chirala
+
+Intermediate
+
+Jun 2017 – Apr 2019
+
+Grade: A+
+
+Bhashyam College of Education (BCE), Guntur
+
+High School
+
+Jun 2016 – Apr 2017
+
+Grade: O
+
+
+Liscense:
+
+https://www.credly.com/badges/84426897-e06c-4a8a-a60c-7cf2a4187245?source=linked_in_profile
+
+https://www.linkedin.com/learning/certificates/b3770237c2a8709e47da18afbca08ade596eee7f7a2e4666a56804a7eab97a6d?trk=backfilled_certificate
+
+https://www.credly.com/badges/adf39374-c4bd-499a-8924-eedc44ab7424?source=linked_in_profile
+
+https://www.credly.com/badges/84426897-e06c-4a8a-a60c-7cf2a4187245?source=linked_in_profile
+
+https://www.credly.com/badges/e18e71b8-6587-4746-87ff-e12212ebae84?source=linked_in_profile
+
+https://www.credly.com/badges/7b8effd5-ebe0-42a9-b1ba-0ff66bdb0ea4?source=linked_in_profile
+
+https://www.coursera.org/account/accomplishments/specialization/certificate/9X4FF4QCBYW3
+
+https://www.linkedin.com/learning/certificates/a78daa37c452ff5bb520db0b48c0fcc950ec2382ab985e1625ab8b7e756ce2ba?trk=backfilled_certificate
+
+https://www.linkedin.com/learning/certificates/c25018cb6c76c926fd639c0af4d26bf62ca79657f5ecd101433db326f7de18de?trk=backfilled_certificate
+
+https://www.linkedin.com/learning/certificates/d0f97392ce3a01f2f7706e3da7b0de3b2f989c3253675ea6147d9af4748d29d3?trk=backfilled_certificate
+
+https://www.linkedin.com/learning/certificates/6375ad6bc9a13b7798209223a029e16256ecabcbf7e8705cc8913eda143d6518?trk=backfilled_certificate
+
+
+Projects
+
+CodeCollab — Real-Time Collaborative Code Editor
+
+
+Associated with The University of Texas at Arlington
+
+Built a real-time collaborative coding platform supporting 500+ concurrent users with <100ms latency using WebSockets and Redis Pub/Sub. Implemented Operational Transformation (OT) for conflict-free multi-user editing and consistent state synchronization across clients. Designed scalable backend services and responsive React UI for seamless collaboration.
+
+Skills: React.js, Redis, +5 skills
+
+Distributed Task & Workflow Orchestrator
+
+
+Associated with The University of Texas at Arlington
+
+Designed and implemented a distributed task execution system with 4 priority queues, retry mechanisms (exponential backoff), and persistent storage, ensuring zero message loss under 10K tasks/min sustained load. Improved system throughput by 3x using asynchronous processing and optimized queue management.
+
+Skills: Python (Programming Language), Celery, +5 skills
+
+DocMind — Multi-Agent AI Document System
+
+Built an AI-powered document processing system with a parallel multi-agent pipeline (summarization, Q&A, insights), reducing processing latency from 8.2s to 4.9s (~40% improvement) at 200 concurrent requests. Designed scalable backend APIs and asynchronous task execution using Celery and Redis
+
+Skills: Python (Programming Language), Fast api, +5 skills
+
+
+
+
+
+
+
+
