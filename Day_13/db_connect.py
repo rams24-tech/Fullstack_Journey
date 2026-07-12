@@ -10,12 +10,9 @@ connection = psycopg2.connect(
 print("Connected to database successfully!")
 
 cursor = connection.cursor()
-cursor.execute("SELECT * FROM expenses;")
-rows = cursor.fetchall()
-
-for row in rows:
-    print(f"ID: {row[0]} | {row[1]} | ${row[2]} | {row[3]}")
-
+cursor.execute("INSERT INTO expenses (description, amount) VALUES (%s, %s);", ("Dinner", 15.00))
+connection.commit()
+print("Expense inserted!")
 
 cursor.close()
 connection.close()
