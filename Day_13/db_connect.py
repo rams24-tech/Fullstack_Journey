@@ -10,9 +10,9 @@ connection = psycopg2.connect(
 print("Connected to database successfully!")
 
 cursor = connection.cursor()
-cursor.execute("INSERT INTO expenses (description, amount) VALUES (%s, %s);", ("Dinner", 15.00))
+cursor.execute("UPDATE expenses SET amount = %s WHERE id = %s;", (6.00, 5))
 connection.commit()
-print("Expense inserted!")
+print("Expense updated!")
 
 cursor.close()
 connection.close()
