@@ -10,9 +10,10 @@ connection = psycopg2.connect(
 print("Connected to database successfully!")
 
 cursor = connection.cursor()
-cursor.execute("UPDATE expenses SET amount = %s WHERE id = %s;", (6.00, 5))
+cursor.execute("DELETE FROM expenses WHERE id = %s;", (6,))
 connection.commit()
-print("Expense updated!")
+print("Expense deleted!")
+
 
 cursor.close()
 connection.close()
