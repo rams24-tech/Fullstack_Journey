@@ -1,4 +1,4 @@
-from flask import Flask,render_template
+from flask import Flask,render_template,request,redirect,url_for
 import psycopg2
 
 app=Flask(__name__)
@@ -21,10 +21,25 @@ def expenses():
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM expenses ORDER BY id;")
     rows = cursor.fetchall()
+    cursor.execute("SELECT SUM(amount) FROM expenses;")
+    total = cursor.fetchone()[0]
     cursor.close()
     conn.close()
-    return render_template("expenses.html", expenses=rows)
+    return render_template("expenses.html", expenses=rows, total=total)
 
+@app.route("/add", methods=["GET", "POST"])
+def add_expense():
+    if request.method == "POST":
+        description = request.form["description"]
+        amount = request.form["amount"]
+        conn = get_connection()
+        cursor = conn.cursor()
+        cursor.execute("INSERT INTO expenses (description, amount) VALUES (%s, %s);", (description, amount))
+        conn.commit()
+        cursor.close()
+        conn.close()
+        return redirect(url_for("expenses"))
+    return render_template("add.html")
 
 
 if __name__ =="__main__":
